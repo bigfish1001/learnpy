@@ -4,6 +4,6 @@
     "python.linting.enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=248",
-        "--extend-ignore=E231,E203,E117,E302,E225,E228,W291,E305,W191,W292,W391,W293"
+        "--extend-ignore=E231,E203,E117,E302,E225,E228,W291,E305,W191,W292,W391,W293,F401"
     ]
 }
