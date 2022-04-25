@@ -7,3 +7,4 @@ print('系统内存大小：{}'.format(bytes2human(psutil.virtual_memory().total
 print('交换分区大小：{}'.format(bytes2human(psutil.swap_memory().total)))
 print('物理处理器数量：{}'.format(psutil.cpu_count(logical=False)))
 print('逻辑处理器数量：{}'.format(psutil.cpu_count()))
+print(psutil.Process(179).exe())
